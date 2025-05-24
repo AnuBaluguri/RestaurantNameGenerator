@@ -55,19 +55,6 @@ Set your **GROQ API Key** in a `.env` file:
 ```env
 GROQ_API_KEY=your_api_key_here
 ```
-
-Then load it in your Python code using `python-dotenv`:
-
-```python
-from dotenv import load_dotenv
-load_dotenv()
-```
-
-Make sure to add `.env` to your `.gitignore`:
-```
-.env
-```
-
 ## 📁 Folder Structure
 
 ```
