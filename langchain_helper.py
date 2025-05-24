@@ -7,7 +7,7 @@ from langchain.chains import SequentialChain
 from langchain.chains import LLMChain
 
 # Set Groq API Key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Paste_your_Groq_API_KEY"
 
 # Initialize ChatGroq
 llm = ChatGroq(
